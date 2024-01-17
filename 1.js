@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 if (currentValue !== 0) {
                     currentInput = (previousValue / currentValue).toString();
                 } else {
-                    currentInput = 'Error';
+                    currentInput = 'Infinity';
                 }
             }
         // Reset previous input and current operation after performing the operation
