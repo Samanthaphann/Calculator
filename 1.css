@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: 5px; /* Add margin for spacing around each button */
+}
+
+.clear {
+    width: 245px;
+    margin: 5px; /* Add margin for spacing around the clear button */
+}
+
+.numberInput {
+    border: 0.5px solid black;
+    width: 253px;
+    text-align: right;
+    height: 50px;
+    font-size: 25px;
+    background-color: rgb(177, 177, 177);
+    padding: 1px;
+}
+
+.buttons{
+    background-color: rgb(202, 202, 202);
+    width: 255px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: black 1px solid;
+}
+
