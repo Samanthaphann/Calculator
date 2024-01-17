@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {
+rdocument.addEventListener('DOMContentLoaded', function () {
     const numberInput = document.getElementById('numberInput');
     const buttons = document.querySelectorAll('.allButtons');
     const clearButton = document.getElementById('c');
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 if (currentValue !== 0) {
                     currentInput = (previousValue / currentValue).toString();
                 } else {
-                    currentInput = 'Infinity';
+                    currentInput = 'Error';
                 }
             }
         // Reset previous input and current operation after performing the operation
